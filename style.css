@@ -12,11 +12,17 @@
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     border: none;
     padding: 15px 35px;
     border-radius: 10px;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 .heading-tilte{
     font-size: 40px;
@@ -59,6 +65,7 @@ nav{
 main{
     /* max-width: 1140px; */
     /* margin: 0 auto; */
+    background-color: #00000004;
 }
 
 
@@ -140,6 +147,7 @@ main{
     border-radius: 10px;
     color: #F2EDED;
     padding: 20px;
+    background-color: white;
 }
 
 .user-identity{
@@ -176,9 +184,11 @@ main{
 .get-started{
     margin: 200px 200px;
     text-align: center;
+    background-color: white;
 }
 .started-text{
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 .get-started img{
     border-radius: 40px;
@@ -191,9 +201,56 @@ main{
 
 
 
+/* ---------------------------------------form section------------------------------- */
+.form-text h1{
+    font-size: 90px;
+}
+.form{
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.main-form form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+form input, form textarea{
+    padding: 10px 10px;
+    border: 1px solid rgba(80, 78, 78, 0.425);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+form button{
+    margin-top: 10px;
+}
 
 
 
-
-
+/*---------------------------footer----------------------------------------------------- */
+.footer{
+    margin: 100px 200px;
+    text-align: center;
+}
+.footer h1{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 250px;
+}
+.info-item a{
+    text-decoration: none;
+    color: #252432;
+}
 
