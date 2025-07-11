@@ -18,6 +18,11 @@
     padding: 15px 35px;
     border-radius: 10px;
 }
+.heading-tilte{
+    font-size: 40px;
+    color: #252432;
+}
+
 
 
 
@@ -51,6 +56,11 @@ nav{
     font-size: 55px;
 }
 
+main{
+    /* max-width: 1140px; */
+    /* margin: 0 auto; */
+}
+
 
 /* action section */
 .action-section{
@@ -74,3 +84,116 @@ nav{
     opacity: 50%;
     font-size: 25px;
 }
+
+
+
+/* ======================================user section======================== */
+.user-section{
+    
+    margin: 100px auto;
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgba(78, 71, 255, .1);
+    text-align: center;
+}
+.user-data{
+    display: flex;
+    justify-content: space-around;
+}
+.user-section h3{
+    font-size: 35px;
+    color: #252432;
+}
+.user-data-item h1{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.user-data-item p{
+    color: #252432;
+    opacity: 50%;
+    font-size: 20px;
+    background-color: rgba(78, 71, 255, .1);
+}
+
+
+
+
+
+
+/*=============== feedback section============================================ */
+
+.feedback{
+    margin: 200px 200px;
+    text-align: center;
+}
+
+
+.review-container{
+    display: flex;
+    gap: 24px;
+}
+
+.user{
+    text-align: left;
+    border: 1px solid #d1d1d6;
+    border-radius: 10px;
+    color: #F2EDED;
+    padding: 20px;
+}
+
+.user-identity{
+    display: flex;
+}
+.user-pic{
+    height: 60px;
+    width: 60px;
+}
+.review-title{
+    font-size: 20px;
+    color: #252432;
+}
+.review-description{
+    color: black;
+    font-weight: 400;
+}
+.username{
+    color: black;
+    opacity: 70%;
+}
+.date{
+    color: black;
+    opacity: 40%;
+}
+.user-identity img{
+    border-radius: 50%;
+}
+
+
+
+
+/* --------------------------------get started section----------------------------- */
+.get-started{
+    margin: 200px 200px;
+    text-align: center;
+}
+.started-text{
+    padding-bottom: 30px;
+}
+.get-started img{
+    border-radius: 40px;
+}
+.get-started p{
+    opacity: 70%;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
